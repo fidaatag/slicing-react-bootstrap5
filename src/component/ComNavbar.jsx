@@ -5,7 +5,7 @@ import Logo from "../assets/Logo.png"
 const CompNavbar = () => {
   return (
     <>
-      <Navbar className='bg-primary' data-bs-theme="dark">
+      <Navbar data-bs-theme="dark" style={{backgroundColor: "#3481B9"}}>
         <Container>
           <Navbar.Brand href="#home">
             <img
